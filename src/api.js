@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://backen-sc.onrender.com';
-
+const API_URL = 'https://backen-sc.onrender.com/fechas-historicas';
 export const getFechasHistoricas = async () => {
   try {
     const response = await axios.get(API_URL);
